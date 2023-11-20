@@ -6,7 +6,7 @@ export namespace Constants {
   export const MINT_PRICE: u64 = 0;
   export const MINT_FEE: bool = false;
   export const MAX_SUPPLY: u64 = 100;
-  export const URI: string = "https://lime-mid-mandrill-793.mypinata.cloud/ipfs/QmdStcNBskZcgsgYBoiJsvZuBsiUvnMSxecU7a4fRz56Fv/";
+  export const URI: string = "https://lime-mid-mandrill-793.mypinata.cloud/ipfs/QmdwksmJ9WHwJ724675PUR1xCpTdPNaqh2ohJGwnmY5RfE/";
   export const OWNER: Uint8Array = Base58.decode("1HCbbw7sbE6FNfzezs49AzFUSGezUEj3dC");
 
   // token mint
