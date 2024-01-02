@@ -252,7 +252,7 @@ export class Collections {
           isTokenApproved = System.checkAuthority(authority.authorization_type.contract_call, from);
         }
       }
-      System.require(isTokenApproved, "from has not authorized transfer", error.error_code.authorization_failure);
+      System.require(isTokenApproved, "Gamblers Genesis - from has not authorized transfer", error.error_code.authorization_failure);
     }
     // clear the token approval
     this._state.removeApproved(token_id);
